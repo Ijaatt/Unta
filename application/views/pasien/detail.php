@@ -35,8 +35,8 @@
           <div class="form-floating-soft">
             <label>Jenis Kelamin</label>
             <select name="gender" id="gender" class="form-control custom-input editable" disabled>
-              <option value="Pria" <?= $result['gender'] == 'Pria' ? 'selected' : ''; ?>>Pria</option>
-              <option value="Wanita" <?= $result['gender'] == 'Wanita' ? 'selected' : ''; ?>>Wanita</option>
+              <option value="Pria" <?= $results['gender'] == 'Pria' ? 'selected' : ''; ?>>Pria</option>
+              <option value="Wanita" <?= $results['gender'] == 'Wanita' ? 'selected' : ''; ?>>Wanita</option>
             </select>
           </div>
           <div class="form-floating-soft">
