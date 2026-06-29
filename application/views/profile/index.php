@@ -77,7 +77,7 @@
               <option value="Wanita" <?= $result['gender'] == 'Wanita' ? 'selected' : ''; ?>>Wanita</option>
             </select>
           </div>
-          
+
           <div class="form-floating-soft">
             <label>Electronic Mail</label>
             <input type="text" name="email" class="form-control custom-input editable" value="<?php echo $result['email'];?>" readonly>
